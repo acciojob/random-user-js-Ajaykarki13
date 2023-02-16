@@ -17,7 +17,6 @@ fetch("https://randomuser.me/api/")
 <img src="${e.picture.large}">
 <h1>${e.name.title+" "+e.name.first+" "+e.name.last}</h1>
 `
-;
 info.innerHTML =
 `
 <p id ="a" style="display:none">${e.dob.age}</p>
@@ -30,7 +29,6 @@ btn2.addEventListener("click",()=>{document.querySelector("#b").style.display="b
 btn3.addEventListener("click",()=>{document.querySelector("#c").style.display="block";document.querySelector("#b").style.display="none"})
 
     })
-
 
 btn4.addEventListener("click",()=>{
   fetch("https://randomuser.me/api/")
@@ -46,7 +44,6 @@ btn4.addEventListener("click",()=>{
 <img src="${e.picture.large}">
 <h1>${e.name.title+" "+e.name.first+" "+e.name.last}</h1>
 `
-;
 info.innerHTML =
 `
 <p id ="a" style="display:none">${e.dob.age}</p>
